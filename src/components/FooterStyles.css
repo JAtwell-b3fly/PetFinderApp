@@ -1,0 +1,10 @@
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    background-color: #dfbeac;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    justify-content:space-evenly;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

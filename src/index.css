@@ -1,0 +1,350 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sign-up-in-screen{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 100%
+}
+
+.sign-up-in-form{
+  width: 50%;
+  height: 100%;
+}
+
+.logo{
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  z-index: -1;
+  left: 53rem;
+  top: 1rem;
+}
+
+.logo-about{
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  left: 35rem;
+  top: -12rem;
+}
+
+.welcome-box{
+  position: absolute;
+  z-index: 1;
+  left: 50rem;
+  top: 34.5rem;
+  background-color: #dfbeac;
+  padding: 2rem;
+  width: 40rem;
+}
+
+.welcome{
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.app-name{
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  position: absolute;
+  left: 62rem;
+  top: 2rem;
+  z-index: 1;
+}
+
+.app-name-about{
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  position: relative;
+  left: 62rem;
+  z-index: 1;
+  top: -1.5rem;
+}
+
+.sitter-descr{
+ margin-right: 4rem;
+ margin-top:1rem;
+}
+
+.sitter-descr h4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  font-size: x-large;
+}
+
+.app-name h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+.app-name-about h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.searchbar{
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 0.01rem;
+  color: grey;
+  padding-inline: 1rem;
+  font-size: 130%;
+  margin-top: 2.5rem;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: space-between;
+}
+
+.card{
+  border-width: 1rem;
+  border-style: solid;
+  border-color:#dfbeac;
+  border-radius: 1rem;
+  width: 38rem;
+  height: 15rem;
+  margin: 1rem 5rem 5rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.sitter-image-div{
+  border-radius: 100%;
+  background-color:#dfbeac;
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin-right:1.5rem;
+  margin-top: 2rem;
+}
+
+.sitter-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.sitter-info{
+  width:24rem;
+}
+
+.booking-btn{
+  background-color: #b76b3b;
+  color: white;
+  width: 15rem;
+  height:2.5rem;
+  font-size: larger;
+  border: none;
+  border-radius: 1rem;
+}
+
+.profile-box{
+  width: 95%;
+  height: 26.2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  background-color:#dfbeac;
+}
+
+.profile-dashboard{
+  background-color: #b76b3b;
+  height: 100%;
+  width: 20%;
+}
+
+.pet-sitter-bio-box{
+  display: flex;
+  border-color: #949cdd;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-radius: 1rem;
+  width: 90%;
+  margin-left: 3rem;
+  padding: 2rem;
+}
+
+.appointment-image{
+  border-radius: 100%;
+  width: 20rem;
+  height: 20rem;
+  margin-left: 38rem;
+  background-color: #949cdd;
+}
+
+.pet-sitter-about{
+  text-align: left;
+  margin-right: 5rem;
+  width: 50%
+}
+
+.pet-sitter-experience{
+  text-align: left;
+  width: 50%
+}
+
+.pet-sitter-text{
+  font-size: large;
+}
+
+.appointment-box{
+  background-color: #aab2d6;
+  height: auto;
+  width: 95%;
+  margin: 2rem;
+}
+
+.appointment-specified-pets{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.appointment-date-time{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.appointment-contact-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm-btn{
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color:#b76b3b;
+  border: none;
+  border-radius: 1rem;
+  margin: 2rem;
+  color:white;
+  font-size: large;
+  font-weight: 600;
+}
+
+.cancel-btn{
+  width: 15rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color:#efe1de;
+  border: none;
+  border-radius: 1rem;
+  margin: 2rem;
+  color:black;
+  font-size: large;
+  font-weight: 600;
+}
+
+.appointment-label{
+  font-size: large;
+  margin-left: 0.5rem;
+  font-weight: 500;
+}
+
+.appointment-input{
+  width: 20rem;
+  height: 1.3rem;
+  color: black;
+  font-size: normal;
+  text-align: left;
+  padding:0.5rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.appointment-toggle{
+  background-color: #b76b3b;
+  height: fit-content;
+  padding: 1rem;
+  display: flex;
+  border-radius: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.unselected-app-btn{
+  font-size: x-large;
+  padding:0.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-weight: normal;
+}
+
+.selected-app-btn{
+  font-size: x-large;
+  padding:0.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+.table-box{
+  background-color: #dfbeac;
+  width: 93%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.borderless-table{
+  border-collapse: seperate;
+  border-spacing: 1rem;
+  text-align: center;
+  justify-content: center;
+  border-spacing: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.borderless-table th{
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  font-size: larger;
+}
+.borderless-table td {
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  font-size: large;
+}
