@@ -6,12 +6,24 @@ import SignUp from "../components/SignUp";
 
 const SignUpIn = () => {
 
-  
+    const [isSignUp, setIsSignUp] = useState(false);
+
+    const toggleComponent = () => {
+      setIsSignUp(!isSignUp);
+    }
 
   return (
     <div className='sign-up-in-screen'>
       <div className='sign-up-in-form'>
-        <SignUp />
+        {
+          isSignUp ? 
+          (
+            <SignUp toggle={toggleComponent} />
+          ):
+          (
+            <SignIn  toggle={toggleComponent} />
+          )
+        }
       </div>
 
       <div>

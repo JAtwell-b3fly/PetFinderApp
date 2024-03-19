@@ -8,7 +8,9 @@ const Chat = () => {
       <NavBar />
 
       <div>
-        Chat
+        <h1 style={{textAlign: "center"}}>Chat</h1>
+
+        <h1 style={{textAlign: "center", height: "15rem", paddingTop: "9rem", width: "100%", fontSize: "3rem"}}>Coming Soon...</h1>
       </div>
 
       <Footer />
